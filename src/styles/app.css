@@ -1,0 +1,118 @@
+.splash-component {
+  width: 100%;
+  height: 120vh;
+  background-color: #E2129F;
+  position: relative;
+  color: #ffffff;
+  font-family: "Lora", "Helvetica Neue", Helvetica, sans-serif; }
+  @media screen and (min-width: 768px) {
+    .splash-component {
+      height: 100vh; } }
+  .splash-component .splash-image {
+    max-width: 100%;
+    height: 100%; }
+    .splash-component .splash-image:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      opacity: 0.25;
+      height: 100%;
+      background: url("/img/splash.jpg") center 0/cover no-repeat fixed transparent; }
+  .splash-component .splash-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transform: translateY(15%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -o-transform: translateY(15%);
+    transform: translateY(15%); }
+    @media screen and (min-width: 768px) {
+      .splash-component .splash-caption {
+        -webkit-transform: translateY(25%);
+        -moz-transform: translateY(25%);
+        -ms-transform: translateY(25%);
+        -o-transform: translateY(25%);
+        transform: translateY(25%); } }
+    .splash-component .splash-caption > div > h1 {
+      margin: 1em;
+      font-weight: bold; }
+    .splash-component .splash-caption > div .btn {
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 2.5em;
+      border: 5px solid #f9e858;
+      border-radius: 5px;
+      color: inherit;
+      margin-top: 1.75em;
+      font-size: 1.35rem;
+      font-weight: bold; }
+
+main {
+  font-family: "Lato", sans-serif; }
+
+#contact {
+  background-color: #f9e858;
+  color: #000;
+  padding: 2em; }
+  #contact a {
+    color: inherit; }
+  #contact ul {
+    margin: 1em 0; }
+    #contact ul > li {
+      padding: 0 1em; }
+
+#programs {
+  background-color: #E2129F;
+  color: #fff;
+  padding: 2em 1em; }
+  #programs h1, #programs h2 {
+    font-weight: 700;
+    margin: 1em 0; }
+
+.well {
+  padding: 1em; }
+  .well > div {
+    margin-bottom: 1em; }
+  .well h1 {
+    margin-bottom: .5em; }
+  .well .btn {
+    background-color: #E2129F;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: .075em;
+    display: inline-block; }
+
+#instructors {
+  padding: 2em;
+  font-family: "Lato", sans-serif; }
+  #instructors .instructor-detail img {
+    margin: auto;
+    width: 200px;
+    height: 200px; }
+
+#updates {
+  background-color: #23abe1;
+  padding: 2em; }
+  #updates input {
+    margin: 1em 1%;
+    width: 48%;
+    float: left;
+    height: 60px; }
+  #updates input[type='submit'] {
+    padding: 1em; }
+
+#footer {
+  padding: 1.5em;
+  background-color: #000;
+  color: #fff; }
+  #footer a {
+    color: inherit; }
+
+/*# sourceMappingURL=app.css.map */

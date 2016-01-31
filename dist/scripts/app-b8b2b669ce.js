@@ -1,0 +1,1 @@
+!function(){"use strict"}(),console.debug("App.js loaded");
